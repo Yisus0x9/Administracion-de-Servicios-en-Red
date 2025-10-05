@@ -1,0 +1,74 @@
+Oct 04 23:41:25.256 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 04 23:41:25.256 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42171.
+Oct 04 23:41:25.263 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 04 23:41:25.263 HYPERVISOR: exec_cmd: hypervisor working_dir /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips 
+Oct 04 23:41:25.263 GENERAL: working_dir=/home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips
+Oct 04 23:41:25.263 HYPERVISOR: exec_cmd: hypervisor working_dir /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/b45f74ff-10f7-449b-afd8-9fb576c87457 
+Oct 04 23:41:25.263 GENERAL: working_dir=/home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/b45f74ff-10f7-449b-afd8-9fb576c87457
+Oct 04 23:41:25.263 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Oct 04 23:41:25.263 VM: VM R4 created.
+Oct 04 23:41:25.264 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Oct 04 23:41:25.264 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Oct 04 23:41:25.264 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:41:25.264 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Oct 04 23:41:25.265 HYPERVISOR: exec_cmd: vm set_ios R4 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:41:25.265 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:41:25.265 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x608927c0 
+Oct 04 23:41:25.265 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Oct 04 23:41:25.266 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Oct 04 23:41:25.266 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Oct 04 23:41:25.266 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:41:25.267 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+Oct 04 23:41:25.267 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:41:25.267 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-GE 
+Oct 04 23:41:25.267 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:41:25.267 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-GE 
+Oct 04 23:41:25.267 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:41:25.268 HYPERVISOR: exec_cmd: vm slot_add_binding R4 4 0 PA-8T 
+Oct 04 23:41:25.268 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:41:25.268 HYPERVISOR: exec_cmd: vm slot_add_binding R4 5 0 PA-2FE-TX 
+Oct 04 23:41:25.268 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:41:25.269 HYPERVISOR: exec_cmd: vm slot_add_binding R4 6 0 PA-2FE-TX 
+Oct 04 23:41:25.301 HYPERVISOR: exec_cmd: vm set_ios R4 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:42:32.354 HYPERVISOR: exec_cmd: vm set_ios R4 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:47:12.651 HYPERVISOR: exec_cmd: nio create_udp udp-21c91e56-3447-4604-a2c6-4e0241c4743d 10024 127.0.0.1 10025 
+Oct 04 23:47:12.860 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 1 udp-21c91e56-3447-4604-a2c6-4e0241c4743d 
+Oct 04 23:47:12.861 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:47:24.339 HYPERVISOR: exec_cmd: nio create_udp udp-be081bec-7c75-4f1b-b5df-a3f4b34ca726 10028 127.0.0.1 10029 
+Oct 04 23:47:24.341 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-be081bec-7c75-4f1b-b5df-a3f4b34ca726 
+Oct 04 23:47:24.341 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:48:49.341 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:48:49.341 HYPERVISOR: exec_cmd: vm slot_remove_binding R4 2 0 
+Oct 04 23:48:49.342 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:48:49.342 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-2FE-TX 
+Oct 04 23:48:49.342 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:48:49.342 HYPERVISOR: exec_cmd: vm slot_remove_binding R4 3 0 
+Oct 04 23:48:49.342 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:48:49.342 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-2FE-TX 
+Oct 04 23:49:03.974 HYPERVISOR: exec_cmd: nio create_udp udp-062cfe84-24b3-4072-9fd5-d04e1470fd99 10042 127.0.0.1 10043 
+Oct 04 23:49:03.976 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-062cfe84-24b3-4072-9fd5-d04e1470fd99 
+Oct 04 23:49:03.976 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 04 23:52:11.920 HYPERVISOR: exec_cmd: vm set_ios R4 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 05 00:28:49.141 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Oct 05 00:28:49.141 HYPERVISOR: exec_cmd: vm set_ghost_file R4 /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Oct 05 00:28:49.142 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 05 00:28:49.144 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Oct 05 00:28:49.144 HYPERVISOR: exec_cmd: vm start R4 
+Oct 05 00:29:15.962 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 05 00:45:00.138 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 05 00:53:22.587 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 05 00:53:22.588 HYPERVISOR: exec_cmd: vm stop R4 
+Oct 05 00:53:22.707 VM: VM R4 shutdown.
+Oct 05 00:53:22.707 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 05 00:53:58.735 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Oct 05 00:53:58.735 HYPERVISOR: exec_cmd: vm set_ghost_file R4 /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Oct 05 00:53:58.736 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 05 00:53:58.736 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Oct 05 00:53:58.736 HYPERVISOR: exec_cmd: vm start R4 
+Oct 05 00:59:09.531 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 05 01:10:54.947 HYPERVISOR: exec_cmd: vm set_ios R4 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 05 01:10:57.745 HYPERVISOR: exec_cmd: vm set_ios R4 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 05 01:14:09.136 HYPERVISOR: Stopped.
+Oct 05 01:14:09.241 VM: VM R4 shutdown.
+Oct 05 01:14:09.241 VM: VM R4 destroyed.
+Oct 05 01:14:09.242 GENERAL: reset done.

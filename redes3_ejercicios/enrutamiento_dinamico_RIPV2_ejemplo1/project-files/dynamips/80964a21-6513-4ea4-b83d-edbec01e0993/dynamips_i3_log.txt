@@ -1,0 +1,97 @@
+Oct 04 23:41:20.752 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 04 23:41:20.752 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56739.
+Oct 04 23:41:20.758 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 04 23:41:20.759 HYPERVISOR: exec_cmd: hypervisor working_dir /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips 
+Oct 04 23:41:20.759 GENERAL: working_dir=/home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips
+Oct 04 23:41:20.759 HYPERVISOR: exec_cmd: hypervisor working_dir /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/80964a21-6513-4ea4-b83d-edbec01e0993 
+Oct 04 23:41:20.759 GENERAL: working_dir=/home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/80964a21-6513-4ea4-b83d-edbec01e0993
+Oct 04 23:41:20.759 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Oct 04 23:41:20.759 VM: VM R3 created.
+Oct 04 23:41:20.760 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Oct 04 23:41:20.760 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Oct 04 23:41:20.760 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:41:20.760 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Oct 04 23:41:20.761 HYPERVISOR: exec_cmd: vm set_ios R3 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:41:20.761 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:41:20.761 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x608927c0 
+Oct 04 23:41:20.762 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+Oct 04 23:41:20.762 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Oct 04 23:41:20.762 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Oct 04 23:41:20.763 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:41:20.763 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-2FE-TX 
+Oct 04 23:41:20.763 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:41:20.764 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-GE 
+Oct 04 23:41:20.764 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:41:20.764 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 PA-GE 
+Oct 04 23:41:20.765 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:41:20.765 HYPERVISOR: exec_cmd: vm slot_add_binding R3 4 0 PA-8T 
+Oct 04 23:41:20.766 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:41:20.766 HYPERVISOR: exec_cmd: vm slot_add_binding R3 5 0 PA-2FE-TX 
+Oct 04 23:41:20.766 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:41:20.767 HYPERVISOR: exec_cmd: vm slot_add_binding R3 6 0 PA-2FE-TX 
+Oct 04 23:41:20.798 HYPERVISOR: exec_cmd: vm set_ios R3 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:41:35.396 HYPERVISOR: exec_cmd: vm set_ios R3 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:41:55.622 HYPERVISOR: exec_cmd: vm set_ios R3 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:42:27.230 HYPERVISOR: exec_cmd: vm set_ios R3 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:42:36.525 HYPERVISOR: exec_cmd: vm set_ios R3 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 04 23:48:09.324 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:48:09.324 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 2 0 
+Oct 04 23:48:09.324 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:48:09.324 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-2FE-TX 
+Oct 04 23:48:09.325 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:48:09.325 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 3 0 
+Oct 04 23:48:09.325 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:48:09.325 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 PA-FE-TX 
+Oct 04 23:48:20.501 HYPERVISOR: exec_cmd: nio create_udp udp-df47f9f2-16a8-4f8f-99fc-4329c1db0bd7 10034 127.0.0.1 10035 
+Oct 04 23:48:20.707 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 1 udp-df47f9f2-16a8-4f8f-99fc-4329c1db0bd7 
+Oct 04 23:48:20.707 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:49:03.968 HYPERVISOR: exec_cmd: nio create_udp udp-e37ec19e-5297-4469-b45f-8169f392f226 10040 127.0.0.1 10041 
+Oct 04 23:49:03.970 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 0 udp-e37ec19e-5297-4469-b45f-8169f392f226 
+Oct 04 23:49:03.970 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:49:49.797 HYPERVISOR: exec_cmd: nio create_udp udp-856730a5-1605-4847-a1ff-b3d9d2075db6 10048 127.0.0.1 10049 
+Oct 04 23:49:49.803 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-856730a5-1605-4847-a1ff-b3d9d2075db6 
+Oct 04 23:49:49.804 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:50:00.218 HYPERVISOR: exec_cmd: nio create_udp udp-40a2ee69-bed6-479f-99e4-2f47c5e4b940 10054 127.0.0.1 10055 
+Oct 04 23:50:00.219 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 1 udp-40a2ee69-bed6-479f-99e4-2f47c5e4b940 
+Oct 04 23:50:00.220 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 23:50:22.168 HYPERVISOR: exec_cmd: nio create_udp udp-4af71531-aa49-4ca4-9ed4-4d6127830790 10058 127.0.0.1 10059 
+Oct 04 23:50:22.170 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-4af71531-aa49-4ca4-9ed4-4d6127830790 
+Oct 04 23:50:22.171 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 05 00:28:48.465 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Oct 05 00:28:48.465 VM: VM Ghost created.
+Oct 05 00:28:48.466 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 05 00:28:48.467 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Oct 05 00:28:48.467 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Oct 05 00:28:48.467 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Oct 05 00:28:48.468 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Oct 05 00:28:48.470 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Oct 05 00:28:48.470 HYPERVISOR: exec_cmd: vm start Ghost 
+Oct 05 00:28:48.799 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Oct 05 00:28:48.800 HYPERVISOR: exec_cmd: vm stop Ghost 
+Oct 05 00:28:48.908 VM: VM Ghost shutdown.
+Oct 05 00:28:48.909 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Oct 05 00:28:48.909 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Oct 05 00:28:48.909 VM: VM Ghost destroyed.
+Oct 05 00:28:48.911 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Oct 05 00:28:48.911 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Oct 05 00:28:48.911 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 05 00:28:48.911 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+Oct 05 00:28:48.912 HYPERVISOR: exec_cmd: vm start R3 
+Oct 05 00:29:15.776 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 05 00:43:35.364 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 05 00:53:22.464 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 05 00:53:22.464 HYPERVISOR: exec_cmd: vm stop R3 
+Oct 05 00:53:22.614 VM: VM R3 shutdown.
+Oct 05 00:53:22.614 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 05 00:53:46.279 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Oct 05 00:53:46.279 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_dinamico_RIPV2_ejemplo1/project-files/dynamips/c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Oct 05 00:53:46.279 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 05 00:53:46.280 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+Oct 05 00:53:46.280 HYPERVISOR: exec_cmd: vm start R3 
+Oct 05 00:58:02.336 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 05 01:10:54.950 HYPERVISOR: exec_cmd: vm set_ios R3 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 05 01:10:57.747 HYPERVISOR: exec_cmd: vm set_ios R3 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 05 01:14:09.136 HYPERVISOR: Stopped.
+Oct 05 01:14:09.295 VM: VM R3 shutdown.
+Oct 05 01:14:09.295 VM: VM R3 destroyed.
+Oct 05 01:14:09.295 GENERAL: reset done.

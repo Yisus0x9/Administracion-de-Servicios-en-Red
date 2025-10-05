@@ -1,0 +1,47 @@
+Oct 01 22:49:30.214 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 01 22:49:30.214 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 48617.
+Oct 01 22:49:30.221 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 01 22:49:30.222 HYPERVISOR: exec_cmd: hypervisor working_dir /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_estatico_ejemplo3/project-files/dynamips 
+Oct 01 22:49:30.222 GENERAL: working_dir=/home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_estatico_ejemplo3/project-files/dynamips
+Oct 01 22:49:30.222 HYPERVISOR: exec_cmd: hypervisor working_dir /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_estatico_ejemplo3/project-files/dynamips/a6abdecf-ffb5-4c96-b137-50db11430ddd 
+Oct 01 22:49:30.222 GENERAL: working_dir=/home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_estatico_ejemplo3/project-files/dynamips/a6abdecf-ffb5-4c96-b137-50db11430ddd
+Oct 01 22:49:30.222 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Oct 01 22:49:30.223 VM: VM R2 created.
+Oct 01 22:49:30.223 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5006 
+Oct 01 22:49:30.223 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Oct 01 22:49:30.224 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.224 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Oct 01 22:49:30.224 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Oct 01 22:49:30.225 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.225 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x608927c0 
+Oct 01 22:49:30.225 HYPERVISOR: exec_cmd: vm set_ios R2 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 01 22:49:30.225 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.0329.0000 
+Oct 01 22:49:30.226 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Oct 01 22:49:30.226 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Oct 01 22:49:30.226 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.226 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Oct 01 22:49:30.227 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.227 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-GE 
+Oct 01 22:49:30.227 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.227 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 PA-GE 
+Oct 01 22:49:30.228 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.228 HYPERVISOR: exec_cmd: vm slot_add_binding R2 4 0 PA-8T 
+Oct 01 22:49:30.228 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.228 HYPERVISOR: exec_cmd: vm slot_add_binding R2 5 0 PA-2FE-TX 
+Oct 01 22:49:30.229 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.229 HYPERVISOR: exec_cmd: vm slot_add_binding R2 6 0 PA-2FE-TX 
+Oct 01 22:49:30.702 HYPERVISOR: exec_cmd: nio create_udp udp-71a1da76-3822-477d-88e5-e1b5b0a6ef8d 10012 127.0.0.1 10013 
+Oct 01 22:49:30.910 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-71a1da76-3822-477d-88e5-e1b5b0a6ef8d 
+Oct 01 22:49:30.910 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:30.945 HYPERVISOR: exec_cmd: nio create_udp udp-b72e5dca-0e0a-4403-9b02-47c1f5cf3db7 10016 127.0.0.1 10017 
+Oct 01 22:49:30.946 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 1 udp-b72e5dca-0e0a-4403-9b02-47c1f5cf3db7 
+Oct 01 22:49:30.946 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:31.184 HYPERVISOR: exec_cmd: nio create_udp udp-bc51d128-95a9-486d-aa2f-39ebe456e40b 10022 127.0.0.1 10023 
+Oct 01 22:49:31.185 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-bc51d128-95a9-486d-aa2f-39ebe456e40b 
+Oct 01 22:49:31.185 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:40.227 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Oct 01 22:49:40.227 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/yisus/GNS3/projects/redes3_ejercicios/enrutamiento_estatico_ejemplo3/project-files/dynamips/c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Oct 01 22:49:40.227 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 01 22:49:40.228 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Oct 01 22:49:40.228 HYPERVISOR: exec_cmd: vm start R2 
+Oct 01 22:50:10.475 HYPERVISOR: exec_cmd: vm extract_config R2 
