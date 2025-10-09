@@ -292,7 +292,11 @@
             {
                 "filters": {},
                 "link_id": "62f38dbb-1e48-4d70-8c43-055e599aa08a",
-                "link_style": {},
+                "link_style": {
+                    "color": "#aa0000",
+                    "type": 1,
+                    "width": 5
+                },
                 "nodes": [
                     {
                         "adapter_number": 2,
@@ -324,7 +328,11 @@
             {
                 "filters": {},
                 "link_id": "623a1b04-3658-4015-ae8b-f4d480633d01",
-                "link_style": {},
+                "link_style": {
+                    "color": "#aa0000",
+                    "type": 1,
+                    "width": 5
+                },
                 "nodes": [
                     {
                         "adapter_number": 2,
@@ -356,7 +364,11 @@
             {
                 "filters": {},
                 "link_id": "5be152f9-fa8a-436e-ab6a-33180593da54",
-                "link_style": {},
+                "link_style": {
+                    "color": "#000000",
+                    "type": 1,
+                    "width": 2
+                },
                 "nodes": [
                     {
                         "adapter_number": 2,
@@ -388,7 +400,11 @@
             {
                 "filters": {},
                 "link_id": "4219f32a-767e-4cc5-8e95-0b9c9cdc2679",
-                "link_style": {},
+                "link_style": {
+                    "color": "#000000",
+                    "type": 1,
+                    "width": 2
+                },
                 "nodes": [
                     {
                         "adapter_number": 2,
@@ -420,7 +436,11 @@
             {
                 "filters": {},
                 "link_id": "a4406ead-ae94-4793-a884-e43e73fed104",
-                "link_style": {},
+                "link_style": {
+                    "color": "#aa0000",
+                    "type": 1,
+                    "width": 5
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -452,7 +472,11 @@
             {
                 "filters": {},
                 "link_id": "46f64430-796d-4384-b904-9db73b4c9cf0",
-                "link_style": {},
+                "link_style": {
+                    "color": "#000000",
+                    "type": 1,
+                    "width": 2
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -484,7 +508,11 @@
             {
                 "filters": {},
                 "link_id": "acf260b2-0a08-455f-845a-4bead2fc7090",
-                "link_style": {},
+                "link_style": {
+                    "color": "#000000",
+                    "type": 1,
+                    "width": 2
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -516,7 +544,11 @@
             {
                 "filters": {},
                 "link_id": "d1efe1f1-bc98-42dd-a2f4-83d64469a4b9",
-                "link_style": {},
+                "link_style": {
+                    "color": "#000000",
+                    "type": 1,
+                    "width": 2
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -548,7 +580,11 @@
             {
                 "filters": {},
                 "link_id": "dcc77c63-4ccd-475c-9b8f-8460ed907bac",
-                "link_style": {},
+                "link_style": {
+                    "color": "#000000",
+                    "type": 1,
+                    "width": 2
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -575,12 +611,16 @@
                         "port_number": 0
                     }
                 ],
-                "suspend": false
+                "suspend": true
             },
             {
                 "filters": {},
                 "link_id": "b38131a9-f72c-4a4a-b107-b0b9b79cdf28",
-                "link_style": {},
+                "link_style": {
+                    "color": "#aa0000",
+                    "type": 1,
+                    "width": 5
+                },
                 "nodes": [
                     {
                         "adapter_number": 2,
@@ -1077,5 +1117,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.54",
-    "zoom": 100
+    "zoom": 141
 }
