@@ -769,7 +769,11 @@
             {
                 "filters": {},
                 "link_id": "eba81bb0-f5ad-42ad-88ff-1c637332b1b6",
-                "link_style": {},
+                "link_style": {
+                    "color": "#000000",
+                    "type": 1,
+                    "width": 2
+                },
                 "nodes": [
                     {
                         "adapter_number": 1,
@@ -865,7 +869,11 @@
             {
                 "filters": {},
                 "link_id": "93fc339d-f6f9-435e-9b10-bbf21ea0c3a6",
-                "link_style": {},
+                "link_style": {
+                    "color": "#000000",
+                    "type": 1,
+                    "width": 2
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -897,7 +905,11 @@
             {
                 "filters": {},
                 "link_id": "0102ae49-3430-484d-8f80-1df40b2cca6d",
-                "link_style": {},
+                "link_style": {
+                    "color": "#aa0000",
+                    "type": 1,
+                    "width": 5
+                },
                 "nodes": [
                     {
                         "adapter_number": 2,
@@ -929,7 +941,11 @@
             {
                 "filters": {},
                 "link_id": "ee2abbb4-b1f2-40c2-a6ff-eca10cddc3a2",
-                "link_style": {},
+                "link_style": {
+                    "color": "#aa0000",
+                    "type": 1,
+                    "width": 5
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -961,7 +977,11 @@
             {
                 "filters": {},
                 "link_id": "7751055d-63ea-48e0-b0c1-7ac319511845",
-                "link_style": {},
+                "link_style": {
+                    "color": "#aa0000",
+                    "type": 1,
+                    "width": 5
+                },
                 "nodes": [
                     {
                         "adapter_number": 1,
@@ -993,7 +1013,11 @@
             {
                 "filters": {},
                 "link_id": "90f7bf4f-707b-416f-9f90-b72da86347bc",
-                "link_style": {},
+                "link_style": {
+                    "color": "#aa0000",
+                    "type": 1,
+                    "width": 5
+                },
                 "nodes": [
                     {
                         "adapter_number": 0,
