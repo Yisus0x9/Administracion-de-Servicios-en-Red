@@ -1,0 +1,60 @@
+Oct 25 21:41:44.356 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 25 21:41:44.356 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52521.
+Oct 25 21:41:44.363 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 25 21:41:44.363 HYPERVISOR: exec_cmd: hypervisor working_dir /home/yisus/GNS3/projects/examen_1/rip/project-files/dynamips 
+Oct 25 21:41:44.363 GENERAL: working_dir=/home/yisus/GNS3/projects/examen_1/rip/project-files/dynamips
+Oct 25 21:41:44.364 HYPERVISOR: exec_cmd: hypervisor working_dir /home/yisus/GNS3/projects/examen_1/rip/project-files/dynamips/e91185b1-fbb0-42be-9c57-e9d434c6c7cd 
+Oct 25 21:41:44.364 GENERAL: working_dir=/home/yisus/GNS3/projects/examen_1/rip/project-files/dynamips/e91185b1-fbb0-42be-9c57-e9d434c6c7cd
+Oct 25 21:41:44.364 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Oct 25 21:41:44.364 VM: VM R1 created.
+Oct 25 21:41:44.364 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5011 
+Oct 25 21:41:44.364 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Oct 25 21:41:44.365 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:44.365 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Oct 25 21:41:44.365 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Oct 25 21:41:44.366 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:44.366 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x608927c0 
+Oct 25 21:41:44.366 HYPERVISOR: exec_cmd: vm set_ios R1 /home/yisus/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Oct 25 21:41:44.366 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.0495.0000 
+Oct 25 21:41:44.367 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Oct 25 21:41:44.367 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Oct 25 21:41:44.367 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:44.367 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Oct 25 21:41:44.368 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:44.368 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-2FE-TX 
+Oct 25 21:41:44.368 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:44.368 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 PA-GE 
+Oct 25 21:41:44.368 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:44.368 HYPERVISOR: exec_cmd: vm slot_add_binding R1 4 0 PA-8T 
+Oct 25 21:41:44.368 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:44.368 HYPERVISOR: exec_cmd: vm slot_add_binding R1 5 0 PA-2FE-TX 
+Oct 25 21:41:44.369 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:44.369 HYPERVISOR: exec_cmd: vm slot_add_binding R1 6 0 PA-2FE-TX 
+Oct 25 21:41:44.515 HYPERVISOR: exec_cmd: nio create_udp udp-8bbba4b6-6539-4f86-95c7-446b9386edd0 10032 127.0.0.1 10033 
+Oct 25 21:41:44.725 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-8bbba4b6-6539-4f86-95c7-446b9386edd0 
+Oct 25 21:41:44.726 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:45.479 HYPERVISOR: exec_cmd: nio create_udp udp-c20fc958-4383-4e7c-8154-a542bdb8c797 10052 127.0.0.1 10053 
+Oct 25 21:41:45.481 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-c20fc958-4383-4e7c-8154-a542bdb8c797 
+Oct 25 21:41:45.481 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:41:45.510 HYPERVISOR: exec_cmd: nio create_udp udp-2ad93b44-e966-45bb-9125-73d475b46edc 10056 127.0.0.1 10057 
+Oct 25 21:41:45.512 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 0 udp-2ad93b44-e966-45bb-9125-73d475b46edc 
+Oct 25 21:41:45.512 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:44:17.197 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Oct 25 21:44:17.198 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/yisus/GNS3/projects/examen_1/rip/project-files/dynamips/c7200-a3jk9s-mz.124-25g.image-512.ghost 
+Oct 25 21:44:17.198 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 21:44:17.199 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Oct 25 21:44:17.199 HYPERVISOR: exec_cmd: vm start R1 
+Oct 25 21:46:36.397 HYPERVISOR: exec_cmd: vm extract_config R1 
+Oct 25 22:09:23.857 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 22:09:23.859 HYPERVISOR: exec_cmd: vm stop R1 
+Oct 25 22:09:23.997 VM: VM R1 shutdown.
+Oct 25 22:09:24.000 HYPERVISOR: exec_cmd: vm extract_config R1 
+Oct 25 22:09:42.346 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 22:09:42.347 HYPERVISOR: exec_cmd: vm extract_config R1 
+Oct 25 22:09:42.860 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 25 22:09:42.861 HYPERVISOR: exec_cmd: vm extract_config R1 
+Oct 25 22:09:42.862 HYPERVISOR: exec_cmd: vm delete R1 
+Oct 25 22:09:42.862 VM: VM R1 destroyed.
+Oct 25 22:09:42.863 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 25 22:09:42.998 HYPERVISOR: Stopped.
+Oct 25 22:09:42.998 GENERAL: reset done.
